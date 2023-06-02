@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tailwind</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="h-full">
+    <nav class="flex justify-between items-center w-full ">
+        <div>
+            <img src="asset/Logo (1) 2.png" alt="logo" class="w-[200px]">
+        </div>
+        <div >
+            <ul class="flex">
+                <li>Beranda</li>
+                <li>Status Pengajuan</li>
+                <li>Masuk</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="flex justify-center gap-[50px]">
+      <h1 class="font-medium">Selamat Datang</h1>
+      <label class="relative block">
+        <span class="sr-only">Search</span>
+        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+          <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20"><!-- ... --></svg>
+        </span>
+        <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search"/>
+      </label>
+    </div>
+    <section class="bg-white">
+      <div>
+        <div class="bg-[#38B6FF]">
+          <h1 class="text-white">Daftar Pengajuan</h1>
+        </div>
+        <div>
+          <div class="flex">
+            <svg width="31" height="39" viewBox="0 0 31 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6189 16.7507H18.3142C17.1953 16.7507 16.1223 16.3161 15.3311 15.5425C14.5399 14.769 14.0955 13.7198 14.0955 12.6257V0.594482C14.0955 0.503314 14.0584 0.41588 13.9925 0.351415C13.9266 0.286949 13.8371 0.250732 13.7439 0.250732H5.65796C4.16612 0.250732 2.73538 0.830195 1.68048 1.86165C0.625591 2.8931 0.032959 4.29204 0.032959 5.75073V33.2507C0.032959 34.7094 0.625591 36.1084 1.68048 37.1398C2.73538 38.1713 4.16612 38.7507 5.65796 38.7507H25.3455C26.8373 38.7507 28.2681 38.1713 29.3229 37.1398C30.3778 36.1084 30.9705 34.7094 30.9705 33.2507V17.0945C30.9705 17.0033 30.9334 16.9159 30.8675 16.8514C30.8016 16.7869 30.7121 16.7507 30.6189 16.7507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+            </svg>              
+            <div>
+              <h2>Surat Rekomendasi Wakil Dekan</h2>
+              <p>1 lembar</p>
+            </div>
+          </div>
+          <div class="flex">
+            <svg width="31" height="39" viewBox="0 0 31 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6189 16.7507H18.3142C17.1953 16.7507 16.1223 16.3161 15.3311 15.5425C14.5399 14.769 14.0955 13.7198 14.0955 12.6257V0.594482C14.0955 0.503314 14.0584 0.41588 13.9925 0.351415C13.9266 0.286949 13.8371 0.250732 13.7439 0.250732H5.65796C4.16612 0.250732 2.73538 0.830195 1.68048 1.86165C0.625591 2.8931 0.032959 4.29204 0.032959 5.75073V33.2507C0.032959 34.7094 0.625591 36.1084 1.68048 37.1398C2.73538 38.1713 4.16612 38.7507 5.65796 38.7507H25.3455C26.8373 38.7507 28.2681 38.1713 29.3229 37.1398C30.3778 36.1084 30.9705 34.7094 30.9705 33.2507V17.0945C30.9705 17.0033 30.9334 16.9159 30.8675 16.8514C30.8016 16.7869 30.7121 16.7507 30.6189 16.7507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+            </svg>              
+            <div>
+              <h2>Surat Rekomendasi Wakil Dekan</h2>
+              <p>1 lembar</p>
+            </div>
+          </div>
+          <div class="flex">
+            <svg width="31" height="39" viewBox="0 0 31 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6189 16.7507H18.3142C17.1953 16.7507 16.1223 16.3161 15.3311 15.5425C14.5399 14.769 14.0955 13.7198 14.0955 12.6257V0.594482C14.0955 0.503314 14.0584 0.41588 13.9925 0.351415C13.9266 0.286949 13.8371 0.250732 13.7439 0.250732H5.65796C4.16612 0.250732 2.73538 0.830195 1.68048 1.86165C0.625591 2.8931 0.032959 4.29204 0.032959 5.75073V33.2507C0.032959 34.7094 0.625591 36.1084 1.68048 37.1398C2.73538 38.1713 4.16612 38.7507 5.65796 38.7507H25.3455C26.8373 38.7507 28.2681 38.1713 29.3229 37.1398C30.3778 36.1084 30.9705 34.7094 30.9705 33.2507V17.0945C30.9705 17.0033 30.9334 16.9159 30.8675 16.8514C30.8016 16.7869 30.7121 16.7507 30.6189 16.7507Z" fill="#1E1E1E" fill-opacity="0.96"/>
+            </svg>              
+            <div>
+              <h2>Surat Rekomendasi Wakil Dekan</h2>
+              <p>1 lembar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
