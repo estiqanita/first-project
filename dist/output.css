@@ -596,6 +596,21 @@ video {
   margin-bottom: 75px;
 }
 
+.mx-\[65px\]{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.my-52{
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+}
+
+.my-\[70px\]{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -626,6 +641,10 @@ video {
 
 .-mt-\[24px\]{
   margin-top: -24px;
+}
+
+.mb-\[\]{
+  margin-bottom: ;
 }
 
 .block{
@@ -845,6 +864,14 @@ video {
   gap: 60px;
 }
 
+.gap-\[22px\]{
+  gap: 22px;
+}
+
+.gap-\[19px\]{
+  gap: 19px;
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -887,6 +914,10 @@ video {
   border-radius: ;
 }
 
+.rounded-\[12px\]{
+  border-radius: 12px;
+}
+
 .rounded-t-\[14px\]{
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
@@ -921,6 +952,15 @@ video {
 .border-\[\#828282\]{
   --tw-border-opacity: 1;
   border-color: rgb(130 130 130 / var(--tw-border-opacity));
+}
+
+.border-b-\[828282\]{
+  border-bottom-color: 828282;
+}
+
+.border-b-\[\#828282\]{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(130 130 130 / var(--tw-border-opacity));
 }
 
 .bg-\[\#219653\]{
@@ -970,6 +1010,14 @@ video {
 
 .bg-\[\#\#828282\]{
   background-color: ##828282;
+}
+
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[\#\#EB5757\]{
+  background-color: ##EB5757;
 }
 
 .p-\[10px_150px_10px_10px\]{
@@ -1062,6 +1110,26 @@ video {
   padding-bottom: 10px;
 }
 
+.py-\[0px\]{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.px-\[8px\]{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-\[2px\]{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .pb-\[17px\]{
   padding-bottom: 17px;
 }
@@ -1107,6 +1175,10 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[16px\]{
+  font-size: 16px;
+}
+
 .font-\[100\]{
   font-weight: 100;
 }
@@ -1149,6 +1221,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .placeholder-slate-400::-moz-placeholder{
