@@ -762,6 +762,22 @@ video {
   gap: 80px;
 }
 
+.gap-\[20px\]{
+  gap: 20px;
+}
+
+.gap-\[\]{
+  gap: ;
+}
+
+.gap-\[10\]{
+  gap: 10;
+}
+
+.gap-\[10px\]{
+  gap: 10px;
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -1002,6 +1018,10 @@ video {
 
 .text-\[px\]{
   color: px;
+}
+
+.text-\[28\]{
+  color: 28;
 }
 
 .placeholder-slate-400::-moz-placeholder{
