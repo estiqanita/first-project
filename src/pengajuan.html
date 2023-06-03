@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pengajuan</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <nav class="flex justify-between items-center w-full ">
+        <div>
+            <img src="asset/Logo (1) 2.png" alt="logo" class="w-[200px]">
+        </div>
+        <div >
+            <ul class="flex">
+                <li>Beranda</li>
+                <li>Status Pengajuan</li>
+                <li>Masuk</li>
+            </ul>
+        </div>
+    </nav>
+    <section class="">
+        <div>
+            <h1 class="font-medium">Buat Pengajuan</h1>
+            <p class="font-light">Isilah formulir pengajuan berikut:</p>
+        </div>
+        <div>
+            <p>Dokumen apa yang dibutuhkan?</p>
+            <label class="block">
+                <input type="text" name="" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="tuliskan dokumen apa yang kamu butuhkan" />
+            </label>
+        </div>
+        <div>
+            <p>Kapan kamu membutuhkan dokumen tersebut? </p>
+            <label class="block">
+                <input type="date" name="" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="18 Januari 2023" />
+            </label>
+        </div>
+        <div>
+            <p>Catatan untuk dokumen yang dibutuhkan:</p>
+            <label class="block">
+                <input type="text" name="" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="tambahkan catatan jika ada" />
+            </label>
+        </div>
+        <div>
+            <form class="flex items-center space-x-6">
+                <label class="block">
+                  <span class="sr-only"></span>
+                  <input type="file" class="block w-full text-sm text-slate-500
+                    file:mr-4 file:py-2 file:px-4
+                    file:rounded-full file:border-0
+                    file:text-sm file:font-semibold
+                    file:bg-violet-50 file:text-violet-700
+                    hover:file:bg-violet-100"></input>
+                </label>
+              </form>
+              <p class="font-extralight">*format yang dapat diterima adalah pdf/jpg/png/doc</p>
+        </div>
+        <div class="">
+            <button class="p-[10px, 15px, 10px, 15px] bg-[#38B6FF] text-white h-[48px] w-[185px] rounded-[14px]">Buat Pengajuan</button>
+        </div>
+    </section>
+    <footer class="fixed bottom-0 left-0 right-0 justify-between items-center w-full bg-[#38B6FF] flex gap-[65px]">
+        <div>
+            <p class="font-extralight text-white">Copyright © Tata Usaha Online FST 2023</p>
+        </div>
+        <div><img src="asset/Logo (4).png" alt=""></div>
+    </footer>
+</body>
+</html>
