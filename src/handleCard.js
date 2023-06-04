@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mengatur click listener untuk tombol "Buat Pengajuan"
     btnPengajuan.addEventListener('click', function() {
       cardSection.classList.remove('hidden'); // Menghapus kelas "hidden" untuk menampilkan card
+      cardSection.classList.add('flex'); // Menghapus kelas "hidden" untuk menampilkan card
     });
 
     // Mengatur click listener untuk tombol "Tutup"
