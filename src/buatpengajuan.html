@@ -28,10 +28,25 @@
           </ul>
         </div>
       </nav>
+      <section id="card-section" class="h-screen fixed flex p-5 inset-0 overflow-scroll  justify-center items-center  z-50 bg-opacity-50 w-full   bg-white">
+        <div class="card h-[495px] mx-auto w-[644px] rounded-[24px] p-[30px] shadow-[0px_7px_11px_0px_#00000012] text-center bg-white flex flex-col justify-center relative">
+          <div id="close-btn" class="absolute top-0 cursor-pointer right-0 mt-4 mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-[#82E322]">Pengajuan mu berhasil dibuat</p>
+            <h1>silahkan tunggu informasi berikutnya ya!</h1>
+          </div>
+          <a href="beranda.html" class="underline mt-[67px]">kembali ke beranda</a>
+        </div>
+        
+      </section>
       <section class="flex flex-col gap-[45px] w-[80%] mx-[64px] my-[70px] ">
             <section class="header">
-                <h1 class="text-[40px] font-bold">Edit Pengajuan</h1>
-                <p class="text-[20px]">Silahkan laukan pengeditan pada formulir pengajuan</p>
+                <h1 class="text-[40px] font-bold">Buat Pengajuan</h1>
+                <p class="text-[20px]">Isilah formulir pengajuan berikut:</p>
             </section>
             <div class="card mx-[30px] flex gap-[20px] flex-col">
                 <div>
@@ -55,7 +70,7 @@
                 <div>
                     <h1>Catatan untuk dokumen yang dibutuhkan:</h1>
                     <label class="p-[10px] rounded-lg  border border-[#BDBDBD] flex justify-between">
-                        <input type="text" value="Tidak" class="outline-none"></input>
+                        <input type="text" value="Tidak ada" class="outline-none"></input>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
                           </svg>                          
@@ -68,9 +83,9 @@
                     <p class="text-[#BDBDBD]">tambah dokumen</p>
                 </div>
                 <h1>*format yang dapat diterima adalah pdf/jpg/png/doc</h1>
-               <a href="statuspengajuan.html" class="self-end">
+               <a id="btn-pengajuan" class="self-end">
                     <button class="text-white rounded-[14px] w-fit  bg-blueMain px-[15px] py-[10px]">
-                        Simpan
+                        Buat Pengajuan
                     </button>
                </a>
             </div>
@@ -84,5 +99,23 @@
       </div>
       <div><img src="asset/Logo (4).png" alt="" /></div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var btnPengajuan = document.getElementById('btn-pengajuan');
+    var btnClose = document.getElementById('close-btn');
+    var cardSection = document.getElementById('card-section');
+
+    // Mengatur click listener untuk tombol "Buat Pengajuan"
+    btnPengajuan.addEventListener('click', function() {
+      cardSection.classList.remove('hidden'); // Menghapus kelas "hidden" untuk menampilkan card
+    });
+
+    // Mengatur click listener untuk tombol "Tutup"
+    btnClose.addEventListener('click', function() {
+      cardSection.classList.add('hidden'); // Menambahkan kelas "hidden" untuk menyembunyikan card
+    });
+  });
+
+    </script>
 </body>
 </html>
